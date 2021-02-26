@@ -10,6 +10,13 @@
 class FrontController {
 
     /**
+     * This is the main method of the application.
+     *
+     * Manage all calls to the application.
+     *
+     * Validate if the controller and action exist and can be called. In this case
+     * it loads the controller and executes the action, otherwise it generates a 404 error.
+     *
      * @throws Exception
      */
      static function index() {
